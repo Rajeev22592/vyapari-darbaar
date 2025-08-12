@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run vercel-build",
+  "buildCommand": "npx expo export --platform web --clear",
   "outputDirectory": "dist",
   "framework": "vite",
   "rewrites": [
@@ -18,5 +18,8 @@
         }
       ]
     }
-  ]
+  ],
+  "env": {
+    "EXPO_PUBLIC_API_URL": "https://vyapari-darbaar.vercel.app"
+  }
 } 
