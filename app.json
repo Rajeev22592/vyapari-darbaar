@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Vyapari Darbaar",
+    "slug": "vyapari-darbaar",
+    "version": "1.0.0",
+    "scheme": "vyapari-darbaar",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EA580C"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#EA580C"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "mock-project-id"
+      }
+    }
+  }
+}
