@@ -1,7 +1,7 @@
 {
-  "buildCommand": "npx expo export --platform web",
+  "buildCommand": "npm run vercel-build",
   "outputDirectory": "dist",
-  "framework": "expo",
+  "framework": "vite",
   "rewrites": [
     {
       "source": "/(.*)",
